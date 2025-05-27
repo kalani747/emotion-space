@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Emotion Space</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>The Emotion Space</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="emotions.html">Emotions</a>
+      <a href="tools.html">Tools</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to The Emotion Space</h2>
+      <p>A calm place to learn, feel, and grow.</p>
+    </section>
+
+    <section class="overview">
+      <h3>What Are Emotions?</h3>
+      <p>Emotions are signals from your brain and body. They're natural, powerful, and important. Understanding them helps you connect with yourself and others.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 The Emotion Space</p>
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore Emotions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>The Emotion Space</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="emotions.html">Emotions</a>
+      <a href="tools.html">Tools</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Explore Emotions</h2>
+      <div class="emotion-card">
+        <h3>Joy</h3>
+        <p>Joy is a feeling of happiness and pleasure. It can come from moments of connection, success, or peace.</p>
+      </div>
+      <div class="emotion-card">
+        <h3>Sadness</h3>
+        <p>Sadness helps us process loss or disappointment. It invites us to reflect and heal.</p>
+      </div>
+      <div class="emotion-card">
+        <h3>Anger</h3>
+        <p>Anger can signal injustice or frustration. Managed well, it helps us set boundaries and take action.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 The Emotion Space</p>
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emotional Tools</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>The Emotion Space</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="emotions.html">Emotions</a>
+      <a href="tools.html">Tools</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Tools for Emotional Health</h2>
+      <ul>
+        <li><strong>Breathing Exercise:</strong> Inhale for 4, hold for 4, exhale for 6.</li>
+        <li><strong>Journaling Prompt:</strong> "What emotion am I feeling right now, and why?"</li>
+        <li><strong>Body Scan:</strong> Close your eyes and notice each part of your body slowly.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 The Emotion Space</p>
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>The Emotion Space</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="emotions.html">Emotions</a>
+      <a href="tools.html">Tools</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Your Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 The Emotion Space</p>
+  </footer>
+</body>
+</html>body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f9fb;
+  color: #333;
+}
+
+header {
+  background-color: #3a6ea5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.emotion-card {
+  background: #ffffff;
+  padding: 20px;
+  margin: 10px 0;
+  border-left: 5px solid #3a6ea5;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3a6ea5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #3a6ea5;
+  color: white;
+  margin-top: 40px;
+}
